@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,8 @@ WSGI_APPLICATION = 'buildAblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tatytodo',
-        'USER': 'tatytodo',
+        'NAME': 'buildablog',
+        'USER': 'buildablog',
         'PASSWORD': 'testvamp',
         'HOST': 'localhost',
         'PORT': '8889',
