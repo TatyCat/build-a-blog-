@@ -1,4 +1,7 @@
+Add Authentication (Users have to log in to create posts)
 
- templates 1 one each for the / blog(main blog listings) 
- template 2 and / newpost(post new blog entry) views.
+Users will have their own blog pages 
+Visitors will be able to view blogs by author OR view all blog posts on site by all authors. 
+
+keep view of individual blog entry 
 
